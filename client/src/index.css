@@ -1,0 +1,33 @@
+@import 'leaflet/dist/leaflet.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-paper text-charcoal font-sans antialiased; }
+  h1, h2, h3 { @apply font-display text-ink; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-brass; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-5 py-2.5 text-sm font-medium text-white transition hover:bg-ink-600 disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-ink/20 bg-white px-5 py-2.5 text-sm font-medium text-ink transition hover:bg-ink-50;
+  }
+  .btn-brass {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brass px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brass-dark disabled:opacity-50;
+  }
+  .input {
+    @apply w-full rounded-lg border border-ink/20 bg-white px-3 py-2.5 text-sm placeholder:text-slate focus:border-ink focus:outline-none;
+  }
+  .label { @apply mb-1 block text-sm font-medium text-ink; }
+}
+
+.leaflet-container { font-family: inherit; }
+.price-pin { background: transparent; border: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

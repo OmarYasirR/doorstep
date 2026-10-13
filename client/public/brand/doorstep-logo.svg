@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 64" width="268" height="64" role="img" aria-label="Doorstep">
+  <g>
+    <rect width="64" height="64" rx="15" fill="#16324F"/>
+    <path d="M21 45V29a11 11 0 0 1 22 0v16z" fill="#F7F5F0"/>
+    <circle cx="38" cy="37" r="1.9" fill="#B08D57"/>
+    <rect x="15" y="47.5" width="34" height="4.5" rx="2.25" fill="#B08D57"/>
+    <rect x="19" y="53.5" width="26" height="3" rx="1.5" fill="#B08D57" opacity=".55"/>
+  </g>
+  <text x="80" y="43" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" letter-spacing="-0.5" fill="#16324F">Door<tspan fill="#B08D57">step</tspan></text>
+</svg>
