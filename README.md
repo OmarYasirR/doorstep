@@ -1,6 +1,6 @@
 # Doorstep — MERN Real Estate Marketplace
 
-![applogo](client/public\brand\doorstep-mark-512.png)
+![applogo](client/public/brand/doorstep-mark-512.png)
 
 
 React (Vite) + Tailwind client, Express + MongoDB (Mongoose) API, JWT auth, Cloudinary uploads, Leaflet maps.
