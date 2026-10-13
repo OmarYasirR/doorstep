@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="client/public/brand/doorstep-logo.svg" alt="Doorstep" width="260" />
-</p>
+![applogo](client/public/brand/doorstep-mark-512.png)
 
 <p align="center">
   <strong>A full-stack real estate marketplace: search on a map, tour homes in 3D, and book viewings with local agents.</strong>
